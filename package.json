@@ -1,0 +1,32 @@
+{
+  "name": "hapi-consolidate",
+  "version": "0.0.1",
+  "description": "Hapi.js template rendering using consolidate.",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Okoyl/hapi-consolidate.git"
+  },
+  "keywords": [
+    "hapi",
+    "consolidate",
+    "template",
+    "rendering",
+    "pug",
+    "jade",
+    "view",
+    "engine"
+  ],
+  "author": "okoyl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Okoyl/hapi-consolidate/issues"
+  },
+  "homepage": "https://github.com/Okoyl/hapi-consolidate#readme",
+  "dependencies": {
+    "consolidate": "^0.*"
+  }
+}
