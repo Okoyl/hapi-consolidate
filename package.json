@@ -1,6 +1,6 @@
 {
   "name": "hapi-consolidate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hapi.js template rendering using consolidate.",
   "main": "plugin.js",
   "scripts": {
