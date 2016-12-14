@@ -3,9 +3,7 @@
   "version": "0.0.2",
   "description": "Hapi.js template rendering using consolidate.",
   "main": "plugin.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Okoyl/hapi-consolidate.git"
