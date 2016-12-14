@@ -15,7 +15,7 @@ exports.register = (server, options, next) => {
  * @param {object} context - The context for the template.
  */
   const render = function(template, context) {
-    context = Object.assign( internals.options ,context || {} );
+    context = Object.assign( context || {}, internals.options, {template: template} );
     template = `${resolve(internals.path, template)}.${internals.extension}`;
 
     consolidate[internals.name](template, context)
